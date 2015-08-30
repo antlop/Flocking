@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801FACDA1B7D724100A1A9D3 /* ClothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 801FACD91B7D724100A1A9D3 /* ClothViewController.m */; };
+		8037A88B1B7907A200B08FDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8037A88A1B7907A200B08FDA /* AppDelegate.m */; };
+		8037A88E1B7907A200B08FDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8037A88D1B7907A200B08FDA /* ViewController.m */; };
+		8037A8911B7907A200B08FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8037A88F1B7907A200B08FDA /* Main.storyboard */; };
+		8037A8931B7907A200B08FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8037A8921B7907A200B08FDA /* Images.xcassets */; };
+		8037A8961B7907A200B08FDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8037A8941B7907A200B08FDA /* LaunchScreen.xib */; };
+		8037A8A21B7907A300B08FDA /* SwarmMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8037A8A11B7907A300B08FDA /* SwarmMeTests.m */; };
+		8037A8AD1B790A3C00B08FDA /* Boid.m in Sources */ = {isa = PBXBuildFile; fileRef = 8037A8AC1B790A3C00B08FDA /* Boid.m */; };
+		8037A8AF1B790CE400B08FDA /* particleTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 8037A8AE1B790CE400B08FDA /* particleTexture.png */; };
+		8037A8BA1B79452900B08FDA /* Caked Up Wrecking Ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8037A8B91B79452900B08FDA /* Caked Up Wrecking Ball.mp3 */; };
+		80E14ED21B7A65910005CBEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8037A8871B7907A200B08FDA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8037A89C1B7907A200B08FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8037A87A1B7907A100B08FDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8037A8811B7907A100B08FDA;
+			remoteInfo = SwarmMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801FACD81B7D724100A1A9D3 /* ClothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothViewController.h; sourceTree = "<group>"; };
+		801FACD91B7D724100A1A9D3 /* ClothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothViewController.m; sourceTree = "<group>"; };
+		8037A8821B7907A100B08FDA /* SwarmMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwarmMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037A8861B7907A200B08FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8037A8871B7907A200B08FDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8037A8891B7907A200B08FDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8037A88A1B7907A200B08FDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8037A88C1B7907A200B08FDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8037A88D1B7907A200B08FDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8037A8901B7907A200B08FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8037A8921B7907A200B08FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8037A8951B7907A200B08FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8037A89B1B7907A200B08FDA /* SwarmMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwarmMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8037A8A01B7907A300B08FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8037A8A11B7907A300B08FDA /* SwarmMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwarmMeTests.m; sourceTree = "<group>"; };
+		8037A8AB1B790A3C00B08FDA /* Boid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Boid.h; path = ../Boid.h; sourceTree = "<group>"; };
+		8037A8AC1B790A3C00B08FDA /* Boid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Boid.m; path = ../Boid.m; sourceTree = "<group>"; };
+		8037A8AE1B790CE400B08FDA /* particleTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = particleTexture.png; sourceTree = "<group>"; };
+		8037A8B91B79452900B08FDA /* Caked Up Wrecking Ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Caked Up Wrecking Ball.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8037A87F1B7907A100B08FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037A8981B7907A200B08FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801FACD61B7D71F600A1A9D3 /* SwarmTab */ = {
+			isa = PBXGroup;
+			children = (
+				8037A8AB1B790A3C00B08FDA /* Boid.h */,
+				8037A8AC1B790A3C00B08FDA /* Boid.m */,
+				8037A88C1B7907A200B08FDA /* ViewController.h */,
+				8037A88D1B7907A200B08FDA /* ViewController.m */,
+			);
+			name = SwarmTab;
+			sourceTree = "<group>";
+		};
+		801FACD71B7D721600A1A9D3 /* ClothTab */ = {
+			isa = PBXGroup;
+			children = (
+				801FACD81B7D724100A1A9D3 /* ClothViewController.h */,
+				801FACD91B7D724100A1A9D3 /* ClothViewController.m */,
+			);
+			name = ClothTab;
+			sourceTree = "<group>";
+		};
+		8037A8791B7907A000B08FDA = {
+			isa = PBXGroup;
+			children = (
+				8037A8841B7907A100B08FDA /* SwarmMe */,
+				8037A89E1B7907A200B08FDA /* SwarmMeTests */,
+				8037A8831B7907A100B08FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8037A8831B7907A100B08FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8037A8821B7907A100B08FDA /* SwarmMe.app */,
+				8037A89B1B7907A200B08FDA /* SwarmMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8037A8841B7907A100B08FDA /* SwarmMe */ = {
+			isa = PBXGroup;
+			children = (
+				801FACD71B7D721600A1A9D3 /* ClothTab */,
+				801FACD61B7D71F600A1A9D3 /* SwarmTab */,
+				8037A8891B7907A200B08FDA /* AppDelegate.h */,
+				8037A88A1B7907A200B08FDA /* AppDelegate.m */,
+				8037A88F1B7907A200B08FDA /* Main.storyboard */,
+				8037A8921B7907A200B08FDA /* Images.xcassets */,
+				8037A8941B7907A200B08FDA /* LaunchScreen.xib */,
+				8037A8851B7907A200B08FDA /* Supporting Files */,
+			);
+			path = SwarmMe;
+			sourceTree = "<group>";
+		};
+		8037A8851B7907A200B08FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8037A8B91B79452900B08FDA /* Caked Up Wrecking Ball.mp3 */,
+				8037A8AE1B790CE400B08FDA /* particleTexture.png */,
+				8037A8861B7907A200B08FDA /* Info.plist */,
+				8037A8871B7907A200B08FDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8037A89E1B7907A200B08FDA /* SwarmMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8037A8A11B7907A300B08FDA /* SwarmMeTests.m */,
+				8037A89F1B7907A300B08FDA /* Supporting Files */,
+			);
+			path = SwarmMeTests;
+			sourceTree = "<group>";
+		};
+		8037A89F1B7907A300B08FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8037A8A01B7907A300B08FDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8037A8811B7907A100B08FDA /* SwarmMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8037A8A51B7907A300B08FDA /* Build configuration list for PBXNativeTarget "SwarmMe" */;
+			buildPhases = (
+				8037A87E1B7907A100B08FDA /* Sources */,
+				8037A87F1B7907A100B08FDA /* Frameworks */,
+				8037A8801B7907A100B08FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwarmMe;
+			productName = SwarmMe;
+			productReference = 8037A8821B7907A100B08FDA /* SwarmMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8037A89A1B7907A200B08FDA /* SwarmMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8037A8A81B7907A300B08FDA /* Build configuration list for PBXNativeTarget "SwarmMeTests" */;
+			buildPhases = (
+				8037A8971B7907A200B08FDA /* Sources */,
+				8037A8981B7907A200B08FDA /* Frameworks */,
+				8037A8991B7907A200B08FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8037A89D1B7907A200B08FDA /* PBXTargetDependency */,
+			);
+			name = SwarmMeTests;
+			productName = SwarmMeTests;
+			productReference = 8037A89B1B7907A200B08FDA /* SwarmMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8037A87A1B7907A100B08FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Anton lopez";
+				TargetAttributes = {
+					8037A8811B7907A100B08FDA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8037A89A1B7907A200B08FDA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8037A8811B7907A100B08FDA;
+					};
+				};
+			};
+			buildConfigurationList = 8037A87D1B7907A100B08FDA /* Build configuration list for PBXProject "SwarmMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8037A8791B7907A000B08FDA;
+			productRefGroup = 8037A8831B7907A100B08FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8037A8811B7907A100B08FDA /* SwarmMe */,
+				8037A89A1B7907A200B08FDA /* SwarmMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8037A8801B7907A100B08FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037A8911B7907A200B08FDA /* Main.storyboard in Resources */,
+				8037A8961B7907A200B08FDA /* LaunchScreen.xib in Resources */,
+				8037A8BA1B79452900B08FDA /* Caked Up Wrecking Ball.mp3 in Resources */,
+				8037A8931B7907A200B08FDA /* Images.xcassets in Resources */,
+				8037A8AF1B790CE400B08FDA /* particleTexture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037A8991B7907A200B08FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8037A87E1B7907A100B08FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037A88E1B7907A200B08FDA /* ViewController.m in Sources */,
+				8037A88B1B7907A200B08FDA /* AppDelegate.m in Sources */,
+				801FACDA1B7D724100A1A9D3 /* ClothViewController.m in Sources */,
+				80E14ED21B7A65910005CBEE /* main.m in Sources */,
+				8037A8AD1B790A3C00B08FDA /* Boid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8037A8971B7907A200B08FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8037A8A21B7907A300B08FDA /* SwarmMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8037A89D1B7907A200B08FDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8037A8811B7907A100B08FDA /* SwarmMe */;
+			targetProxy = 8037A89C1B7907A200B08FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8037A88F1B7907A200B08FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8037A8901B7907A200B08FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8037A8941B7907A200B08FDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8037A8951B7907A200B08FDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8037A8A31B7907A300B08FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8037A8A41B7907A300B08FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8037A8A61B7907A300B08FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwarmMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8037A8A71B7907A300B08FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwarmMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8037A8A91B7907A300B08FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwarmMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwarmMe.app/SwarmMe";
+			};
+			name = Debug;
+		};
+		8037A8AA1B7907A300B08FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwarmMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwarmMe.app/SwarmMe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8037A87D1B7907A100B08FDA /* Build configuration list for PBXProject "SwarmMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037A8A31B7907A300B08FDA /* Debug */,
+				8037A8A41B7907A300B08FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8037A8A51B7907A300B08FDA /* Build configuration list for PBXNativeTarget "SwarmMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037A8A61B7907A300B08FDA /* Debug */,
+				8037A8A71B7907A300B08FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8037A8A81B7907A300B08FDA /* Build configuration list for PBXNativeTarget "SwarmMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8037A8A91B7907A300B08FDA /* Debug */,
+				8037A8AA1B7907A300B08FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8037A87A1B7907A100B08FDA /* Project object */;
+}
